@@ -40,7 +40,9 @@ void printResponse(char responseToPrint)
 
 void askYesOrNoQuestion()
 {
+    //Greet the user
     welcome();
+    //Create char variable and store the result from getYesNo
     char answer = getYesNo();
     printResponse(answer);
     cin.get();
